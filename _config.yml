@@ -16,7 +16,7 @@ weibo_username:     biaobean
 zhihu_username:     biaobean
 github_username:    biaobean
 #twitter_username:  biaobean
-facebook_username:  biaobean
+#facebook_username:  biaobean
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -48,10 +48,10 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+disqus_username: biaobean
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: biaobean
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -60,10 +60,10 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: 1758723f24b121dd3a154af393dbf476
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'UA-78083599-1'            # Format: UA-xxxxxx-xx
+ga_domain: biaobean.pro
 
 
 
