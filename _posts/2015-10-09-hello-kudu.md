@@ -12,7 +12,7 @@ tags:
     - Kudu
 ---
 
-Cloudera刚公布了一个新的工具叫Kudu([http://getkudu.io]())，基于Apache协议开源，按照官网blog中所说，其主要动机在于：
+Cloudera刚公布了一个新的工具叫Kudu([http://getkudu.io]())，基于Apache协议开源，按照[官网blog](http://blog.cloudera.com/blog/2015/09/kudu-new-apache-hadoop-storage-for-fast-analytics-on-fast-data/)中所说，其主要动机在于：
 
 - 同时提供高性能的顺序扫描和随机查询，避免使用HBase+HDFS混合架构的复杂性：
 	- 开发：必须编写复杂的代码来管理两个系统之间的数据传输及同步
