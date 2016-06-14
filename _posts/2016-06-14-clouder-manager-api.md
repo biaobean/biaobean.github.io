@@ -7,7 +7,10 @@ author:     "biaobean"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - 无聊
+    - Hadoop
+    - API
+    - Cloudera
+    - Java
 ---
 #如何查看API版本
 1. 通过页面http://[cm-server-host]:[cm-server-port]/api/version查看；
@@ -26,6 +29,7 @@ https://github.com/biaobean/cm_api_example
 ##Hadoop参数必须和范围或者角色对应
 不同范围的参数是不能乱射的，比如，服务范围的，不能在角色组或者角色上配置。强制的保证整个服务范围内的配置是一致的，比如dfs.replication这个原本是本地的配置，不能砸在DataNode上设置：
 ![img](/img/content/clouder-manager-api/1.png)
+
 只能在服务范围：
 ![img](/img/content/clouder-manager-api/2.png)
 ##用户自定义参数
