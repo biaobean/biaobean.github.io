@@ -18,6 +18,7 @@ tags:
 3. 通过在线文档
 
 #API帮助
+
 1. 通过https://cloudera.github.io/cm_api/
 2. 在线资源：http://www.cloudera.com/documentation/enterprise/5-5-x/topics/cm_intro_api.html
 3. 在线资源：http://www.cloudera.com/documentation/enterprise/latest/topics/cm_intro_api.html
@@ -26,7 +27,9 @@ tags:
 https://github.com/biaobean/cm_api_example
 
 #碰到的那些坑
+
 ##Hadoop参数必须和范围或者角色对应
+
 不同范围的参数是不能乱射的，比如，服务范围的，不能在角色组或者角色上配置。强制的保证整个服务范围内的配置是一致的，比如dfs.replication这个原本是本地的配置，不能砸在DataNode上设置：
 ![img](/img/content/clouder-manager-api/1.png)
 
