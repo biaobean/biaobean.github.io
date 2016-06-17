@@ -20,60 +20,52 @@ tags:
 
 ## 安装GUI组件
 1. 更新系统(可选)
-
-```bash
+```
 sudo yum update -y
 ```
 2. 安装gnome GUI组件
-
 ```bash
 sudo yum groupinstall -y "Desktop" "Desktop Platform" "X Window System" "Fonts"
 sudo yum groupinstall -y "Server withGUI"
 ```
 3. 启动时默认启动GUI
-
 ```bash
 sudo systemctl set-default graphical.target
 sudo systemctl default
 ```
 4. 安装其他一些可能依赖的组件
-
 ```bash
 sudo yum install -y pixman pixman-devel libXfont
 ```
 现在所有的GUI组件已经安装OK。
-## 安装并启动VNC服务端
-5. 安装tiger VNC服务端
 
+## 安装并启动VNC服务端
+
+5. 安装tiger VNC服务端
 ```bash
 sudo yum install -y tigervnc-server
 ```
 6. 为需要启动VNC桌面的用户创建密码。(通常EC2上的缺省连接用户为ec2-user，暴力点也可以直接用root)
-
 ```bash
 sudo passwd ec2-user
 ```
 7. 设置VNC连接密码
-
 ```bash
 vncpasswd
 ```
 8. 修改sshd_config文件，将passwordauthentication参数设置为“yes”
 9. 重启sshd服务
-
 ```bash
 sudo service sshd restart
 ```
 10. ~~启动VNCServer服务：sudo service vncserver start~~
 10. 启动VNCServer，可以使用geometry参数设置屏幕大小，注意没空格。
-
 ```bash
 vncserver -geometry1024x768
 ```
 你可以运行多次vncserver命令启动多个连接供不同用户使用。每一个有不同的连接号。
 界面输出样例如下，注意记录下"desktop is"后面的桌面ID，供客户端连接用。
-
-```bash
+```
 StartingVNC server: 1:ec2-user 
 
 xauth:creating new authority file /home/ec2-user/.XauthorityNew 'ip-172-31-16-193:1(ec2-user)'
@@ -87,12 +79,12 @@ specifiedin  /home/ec2-user/.vnc/xstartupLog
 file is/home/ec2-user/.vnc/ip-172-29-4-27:1.log                               [ OK ]
 ```
 11.	配置端口。VNC前99个连接依次使用5901到5999端口。对于第一个启动的VNC桌面，系统使用连接号1，端口为5901。使用如下命令将对应端口打开：
-
 ```bash
 iptables -AINPUT -m state --state NEW -m tcp -p tcp --dport 5901 -j ACCEPT
 ```
 
 ## 客户端连接
+
 12. 现在服务器端所有工作已经完成，只需要本地启动VNC客户端。可以通过这个[地址](http://www.realvnc.com/download/viewer/)下载并安装不同操作系统的版本。
 
 13. 填写服务器公有IP以及VNC桌面ID，点击连接。
