@@ -21,4 +21,6 @@ sudo yum install -y zlib-devel apr-devel libcurl-devel cyrus-sasl cyrus-sasl-dev
 ## libelf
 sudo yum install -y elfutils-libelf-devel*
 
+## python standuard libs
+sudo yum install -y python-devel
 ```
