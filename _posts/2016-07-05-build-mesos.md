@@ -17,4 +17,8 @@ tags:
 
 ```
 sudo yum install -y zlib-devel apr-devel libcurl-devel cyrus-sasl cyrus-sasl-devel cyrus-sasl-md5 subversion-devel
+
+## libelf
+sudo yum install -y elfutils-libelf-devel*
+
 ```
