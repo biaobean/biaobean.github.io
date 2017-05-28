@@ -85,7 +85,7 @@ tags:
 
 在Dell发的资料里特地有一个北京大学出的《戴尔与中国经济增长》，意思是戴尔是经济界的白求恩，书已经是10年前的了，谄媚官老爷之切已然顾不上姿势优雅了。
 
-![img](/img/content/2017-gui-yang-big-data-expo/IMG_1271.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1272.JPG)
 
 
 总结：我们不产大数据，我们只是大数据的搬运工。
