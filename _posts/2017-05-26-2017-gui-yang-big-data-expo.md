@@ -15,12 +15,12 @@ tags:
 
 ## 总结
 
-
-1. 百度
-1. 生态。阿里，华为 抱团取暖
-1. 要想被赶出去就问和别人到底有什么不同，核心竞争力在哪里？
-1. 在“自主可控”大旗下，外企的机会不大。参会可能政府人员居多，有点画风不符。
-1. 应用同质化严重，甚至连BI的界面都雷同，傻傻分不清楚。然而大家都有自己的地盘，地方和行业保护主义倾向很严重，比如浪潮拿下老家山东，科大讯飞拿合肥开刀。
+1. 数博会政府背景太重，无论是参会者、参展商、应用、议题等等都是政府和公共安全圈子。即使再换一个IT概念主题，云计算、人工智能等等，估计参展的厂商绝大多数不会变。
+1. 外企不多，在“自主可控”大旗下，外企的机会不大，即使来了，也大多消极怠工。加之参会的政府人员居多，有点画风不符。互联网方面，为什么老三没来？难怪315老被曝光。:)
+1. 大数据的生态很差。几乎所有厂家都恨不得通吃，从下面的基础平台做到上层应用。在这个行业，不需要比别人做的好，只要不做的太差，老江湖们就有饭吃。在这里要表扬的是Dell和华为两位同学。
+1. 现在的需求和应用还大多还停留信息化和快速信息检索，优化一下数据库，不济就上个HBase搭Solr，应该基本上就达到领导对“大数据”的期望了。
+1. 几乎没看到什么大数据创新，无论是技术还是应用。在这里能了解到了当下，但别指望在这里能看到未来。
+1. 应用同质化严重，甚至连BI的界面都雷同，傻傻分不清楚。要想被赶出去就问“和别人到底有什么不同”啊，“核心竞争力在哪里？”这样的问题。然而大家都有自己的地盘，地方和行业保护主义倾向很严重，比如浪潮拿下老家山东，科大讯飞拿合肥开刀。
 
 ## 展商
 ### 阿里
@@ -82,6 +82,11 @@ tags:
 不得不提一下这个艾默生公司，为化工等企业部署IIoT方案，前端传输设备是Dell的。以前只能私有部署，现在后端可以放公有云Azure，专家远程诊断。用户并不用为设备或安装付任何费用，而艾默生公司会给企业出报告，并按照报告向企业收费，有点类似Management-as-a-Service，感觉这个模式可能是个非常牛掰的未来。
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1019.JPG)
+
+在Dell发的资料里特地有一个北京大学出的《戴尔与中国经济增长》，意思是戴尔是经济界的白求恩，书已经是10年前的了，谄媚官老爷之切已然顾不上姿势优雅了。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1271.JPG)
+
 
 总结：我们不产大数据，我们只是大数据的搬运工。
 
@@ -245,9 +250,9 @@ tags:
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1150.JPG)
 
-总结：
+### 优易数据
 
-### 优易
+国字头的公司，顶着国家信息中心的帽子，找地方政府生孩子，做生态。
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1188.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1189.JPG)
@@ -272,7 +277,9 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 
 ### 华为
 
-华为摆了一个赛车游戏机，和真实赛车大小一样的模型，还有前面一个大大的屏幕，吸引了很多人排队。真正的展区就是一个个的屏幕，分行业和应用播放和不同生态伙伴的解决方案。除了自己的FI大数据平台，站台的多为合作伙伴。
+华为摆了一个赛车游戏机，和真实赛车大小一样的模型，还有前面一个大大的屏幕，吸引了很多人排队。入口处放了一个智慧路灯解决方案，路灯可以根据天气自动调节，整个方案中芯片是华为的，其他设备都是合作厂商的，整体方案打华为Logo。
+
+里面的展区就是一个个的屏幕，分行业和应用播放和不同生态伙伴的解决方案。除了自己的FI大数据平台，站台的多为合作伙伴。
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1195.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1196.JPG)
@@ -286,6 +293,8 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1203.JPG)
 
+总结：感觉华为此次想表现的核心并不是“大数据”，而是合作的姿态和生态。
+
 ### 搜狗
 
 搜狗也把自己内部使用的数据分析平台对外做价值输出了，场景主要是基于标签的市场分析，类似百度凤巢。据工作人员说，除了搜狗输入法自己的数据,还得到腾讯许可能拿到微信的所有数据，这就厉害了哦。
@@ -296,13 +305,124 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 
 ### 哈工大
 
-本以为会以机器人为主题，结果展示了一堆行业应用，气质和浪潮类似。恩，咱东北也有Hadoop：
+本以为会以机器人为主题，想不到连哈工大这浓眉大眼睛的也搞大数据了，新成立了一个哈工大大数据集团。虽然只成立了半年，但看应用还不少，主打智慧教育，也有金融和只能停车等行业应用。号称业务涵盖了智慧城市、智慧农业、智慧小镇、教育、医疗、交通、金融、环保、人工智能等多个领域。感觉气质和浪潮类似，政府的儿子嘛。恩，咱东北也有Hadoop：
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1207.JPG)
 
 ### 科大讯飞
 
-科大讯飞得语音识别技术名震江湖很久了，这次装了一个大屏，演示实时语音翻译，还搞了个机器人和人互动，语音识别率非常厉害了。不过，我惊讶的是，公司做大了什么鸟都生了。讯飞下面有很多分公司，也做交通、公安之类的项目。
+哈工大大的旁边也是一个“跨界出轨”的。科大讯飞得语音识别技术名震江湖很久了，这次装了一个大屏，演示实时语音翻译，还搞了个机器人和人互动，语音识别率非常厉害了。不过，我惊讶的是，公司做大了什么鸟都生了。讯飞下面有很多分公司，比如交通项目：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1208.JPG)
+
+从界面的这几个分析应用场景来看，不像是盖的：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1209.JPG)
+
+其解决方案的亮点在于强大的搜索功能，能通过颜色、物体种类/大小等搜索，甚至以图搜车：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1210.JPG)
+
+往下看，似乎交通公安业务还不小：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1211.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1220.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1212.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1214.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1215.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1216.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1222.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1223.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1218.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1219.JPG)
+
+### 中电科
+
+中电科实在太大了，下面来个几个所，但相互之间干嘛也不太清楚。
+
+我看到的又是一个公安系统，据说是在国外南美有落地，现在出口转内销。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1224.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1226.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1227.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1228.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1229.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1230.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1231.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1232.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1233.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1234.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1235.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1237.JPG)
+
+### 数之联
+
+数之联是来自西南片区四川队的选手，在政府、企业、军工等领域行行开花。展台在循环的播放中央电视台某期《经济半小时》里对数之联的专访。
+ 
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1238.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1239.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1241.JPG)
+
+智慧城市顶层设计，这个过了，就内容看，连大数据顶层设计都谈不上。而且，这事儿不该，我也不信是一个技术公司干的。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1242.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1243.JPG)
+
+### 合众
+
+启明星辰是一家老牌做公安行业的公司，收购了杭州合众后也建立起了自己的大数据产品线，不过大多只有一个易拉宝式的说明，工作人员也未能解释清楚，感觉比较虚比较空。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1244.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1245.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1246.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1247.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1248.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1249.JPG)
+
+真正录了Demo视频的是公安行业里人际关系关联搜索，不过看过那么多雷同的东东以后，我已经麻木了：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1250.JPG)
+
+### 数字冰雹
+
+这家公司联合做控制台解决方案的厂商推出了综合管控平台，除了大屏和工作台控制显示，连桌子椅子怎么摆都设计了。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1251.JPG)
+
+### 天源迪科
+
+做为中国人民的老朋友，老牌集成商天源迪科居然是在三号馆的“角落”里。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1253.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1254.JPG)
+
+这张图要火，虽然Hadoop架构才出道十年，但我就是有十多年的大数据经验了：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1255.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1256.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1257.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1258.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1259.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1260.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1260.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1262.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1263.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1264.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1265.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1266.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1267.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1268.JPG)
+
+敲黑板，划重点，核心竞争力：不挑食，通吃。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1269.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1270.JPG)
+
+三朵云在公安领域都得和俺合作！
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1271.JPG)
+
+总结：产品虽全，但任何一款都展现出亮点在哪里。这样的同学还不让别人进来，有点霸道哦。对比华为努力的“洗白”自己，这个同学的生态格局似乎不够啊。
 
 ### 中兴力维
 
