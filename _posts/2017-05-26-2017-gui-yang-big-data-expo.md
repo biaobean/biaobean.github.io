@@ -18,10 +18,10 @@ tags:
 ### 阿里
 财大气粗的阿里占据了一号馆的入口，吸引了不少人。此次阿里标榜的主要是：
 1. 阿里云ET人工智能。此次展厅简单把官网上的一些宣传资料挂墙上了而已，写了在智能交通、智能医疗、智能客服上的一些成果。按宣传资料所说“ET的又是在于对全局的洞察和实时决策上”，估计就是基于海量数据的模型训练和实时查询。从阿里云帮助文档[链接](https://help.aliyun.com/document_detail/42745.html)中看到其支持的10余种机器学习算法在开源大数据平台也都有，而语音、图像识别等已经有很多不错的公司，其他的应用或解决方案并未看到。感觉这还是一个新的产品，期待以后有更多的落地。
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_0999.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1001.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1002.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1003.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_0999.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1001.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1002.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1003.JPG)
 
 1. 智能交通，主打高德地图，口号是“位置大数据赋能行业”，包括高德指数（针对线下商业，进行客源分析和区域分析，精确展现区域人群热度和人群画像）和推荐SDK（针对移动应用，协助开发者构建低成本高时效得推荐功能，赋能个性化场景）。
 1. 飞天麒麟，号称“全球首台全浸没的液冷服务器”。这点子并不是阿里想出来的，但互联网企业的伟大之处之一就是“快”。不过，之前阿里也曾给天朝四大某行建过这套东西，但有点“小瑕疵”——漏水？！看来互联网自用先进技术如何商业化复制输出并没有那么简单。如何解决可靠性和可维护问题是各大传统厂商在各个战场对付互联网野蛮人屡试不爽的防狼剂。不管怎样，看好并鼓励黑科技。
@@ -29,12 +29,12 @@ tags:
 ### 腾讯
 
 腾讯当然是讲他的腾讯云啦:
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1005.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1005.JPG)
 此次推出了大数据可视交互系统RayData，主要应用场景是智慧城市，在大屏上动态的3D效果渲染和展示全景，非常有大片范儿。此次Demo的是贵州：
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1006.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1007.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1008.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1009.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1006.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1007.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1008.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1009.JPG)
 拍照水平不行，还是盗图一个吧：
 ![img](http://f10.baidu.com/it/u=3698746149,1474602597&fm=173&s=2C0660905CDC2ECE601D748303007088&w=640&h=427&img.JPEG&access=215967316)
 
@@ -43,20 +43,22 @@ tags:
 想象一下吧，一个指挥中心或展示厅，用一个iMAX的屏做这样的可视化展现...对比俺们现在好多地方还只是excel导出的二维透视表，羞涩啊...网上查了下，应该是一家叫RayKite（[北京光启元公司](http://www.raykite.com)）创业公司的产品，是腾讯的战略合作伙伴，以前似乎有文化传媒的背景，难怪，艺术圈儿的，果然和IT圈画风不一样。
 
 另外也宣传了一下反诈骗平台：
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1010.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1010.JPG)
 和人工智能，主要是人脸识别，哄哄小姑娘：
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1011.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1011.JPG)
 
 ### 360
 
 360推的是面向企业的云安全服务，与企业的网络对接，将网络日志发送到360云端进行安全监控。
 
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1012.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1014.JPG)
-![img](/_posts/2017-gui-yang-big-data-expo/IMG_1015.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1012.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1014.JPG)
+![img](/img/2017-gui-yang-big-data-expo/IMG_1015.JPG)
 总结：
 
 ### Dell
+
+活雷锋Dell还是很走心的，还有Disco表演等吸睛。Dell展示了和合作伙伴在各个领域的一些解决方案。
 
 总结：我们不产大数据，我们只是大数据的搬运工。
 
@@ -89,6 +91,7 @@ tags:
 还有浪潮也做大数据投资
 
 这里是
+
 #### 精准扶贫云
 
 浪潮在贵州做的项目，现在在全国推广了。以前扶贫数据过时，且不准确，浪潮配合政府逐户采集数据，并与政府部门其他数据
@@ -149,16 +152,25 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 
 搜狗也把自己内部使用的数据分析平台对外做价值输出了，场景主要是基于标签的市场分析，类似百度凤巢。据工作人员说，除了搜狗输入法自己的数据,还得到腾讯许可能拿到微信的所有数据，这就厉害了哦。
 
+### 哈工大
+
+本以为会以机器人为主题，结果展示了一堆行业应用，气质和浪潮类似。恩，咱东北也有Hadoop：
+
+### 科大讯飞
+
+科大讯飞得语音识别技术名震江湖很久了，这次装了一个大屏，演示实时语音翻译，还搞了个机器人和人互动，语音识别率非常厉害了。不过，我惊讶的是，公司做大了什么鸟都生了。讯飞下面有很多分公司，也做交通、公安之类的项目。
+
 
 ### 慧数
 
-![img](/_posts/2017-gui-yang-big-data-expo/zhongkedianji.png)
+![img](/img/2017-gui-yang-big-data-expo/zhongkedianji.png)
 
 ## 花边
 1. 大娘们组团逛数博会。在数博会门口就像旅游景点一样，有很多摇着小旗子的“导游”，领一队队戴着整齐帽子的大爷大妈团，浩浩荡荡地进军数博会会场。大妈都大数据了？顿时压力大:)
 1. 在线直播火爆。现场有很多妹子像逛街一样直播数博会，嗯是妹子，全是妹子，连“工作人员”都是妹子。我似乎有点穿越ChinaJoy？大数据能吸引妹子来，这绝逼是IT民工转型的强大动力啊！
-![img](/_posts/2017-gui-yang-big-data-expo/live1.png)
-![img](/_posts/2017-gui-yang-big-data-expo/live2.png)
+![img](/img/2017-gui-yang-big-data-expo/live1.png)
+![img](/img/2017-gui-yang-big-data-expo/live2.png)
+
 ## 总结
 
 1. 各种“第一”满天飞。不是新广告法都出来了吗，有人管不？
