@@ -25,6 +25,8 @@ tags:
 
 1. 智能交通，主打高德地图，口号是“位置大数据赋能行业”，包括高德指数（针对线下商业，进行客源分析和区域分析，精确展现区域人群热度和人群画像）和推荐SDK（针对移动应用，协助开发者构建低成本高时效得推荐功能，赋能个性化场景）。
 1. 飞天麒麟，号称“全球首台全浸没的液冷服务器”。这点子并不是阿里想出来的，但互联网企业的伟大之处之一就是“快”。不过，之前阿里也曾给天朝四大某行建过这套东西，但有点“小瑕疵”——漏水？！看来互联网自用先进技术如何商业化复制输出并没有那么简单。如何解决可靠性和可维护问题是各大传统厂商在各个战场对付互联网野蛮人屡试不爽的防狼剂。不管怎样，看好并鼓励黑科技。
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/V3ll7FMyGyNRlqEicIia5rN7oWzW53aTGdYvib2EuhD1MEpGu6riaC6tFYlEYTHsmqIPcCOfGrsEqGEGMHqic5eQcug/640)
+![img](http://mmbiz.qpic.cn/mmbiz_jpg/V3ll7FMyGyNRlqEicIia5rN7oWzW53aTGdzmGict215iaS6t53UQA93q1Ib9qzicGYRO1FRibPVzPDRDz4h0eHzQdg6Q/640)
 
 ### 腾讯
 
@@ -35,7 +37,9 @@ tags:
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1007.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1008.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1009.JPG)
+
 拍照水平不行，还是盗图一个吧：
+
 ![img](http://f10.baidu.com/it/u=3698746149,1474602597&fm=173&s=2C0660905CDC2ECE601D748303007088&w=640&h=427&img.JPEG&access=215967316)
 
 不过图片看不出震撼的地方，在[这里](https://v.qq.com/x/page/t0393eflrnl.html)有一个RayData的深圳城市Demo视频，和此次的很类似。
@@ -43,8 +47,11 @@ tags:
 想象一下吧，一个指挥中心或展示厅，用一个iMAX的屏做这样的可视化展现...对比俺们现在好多地方还只是excel导出的二维透视表，羞涩啊...网上查了下，应该是一家叫RayKite（[北京光启元公司](http://www.raykite.com)）创业公司的产品，是腾讯的战略合作伙伴，以前似乎有文化传媒的背景，难怪，艺术圈儿的，果然和IT圈画风不一样。
 
 另外也宣传了一下反诈骗平台：
+
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1010.JPG)
+
 和人工智能，主要是人脸识别，哄哄小姑娘：
+
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1011.JPG)
 
 ### 360
@@ -54,11 +61,12 @@ tags:
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1012.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1014.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1015.JPG)
-总结：
 
 ### Dell
 
 活雷锋Dell还是很走心的，还有Disco表演等吸睛。Dell展示了和合作伙伴在各个领域的一些解决方案。
+
+不得不提一下这个汤姆生公司，为化工等企业部署IIoT方案，前端传输设备是Dell的。以前只能私有部署，现在后端可以放公有云，专家远程诊断。用户并不用为设备或安装付任何费用，而汤姆生公司定期会给企业出报告，并按照报告向企业收费，
 
 总结：我们不产大数据，我们只是大数据的搬运工。
 
@@ -160,6 +168,7 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 
 科大讯飞得语音识别技术名震江湖很久了，这次装了一个大屏，演示实时语音翻译，还搞了个机器人和人互动，语音识别率非常厉害了。不过，我惊讶的是，公司做大了什么鸟都生了。讯飞下面有很多分公司，也做交通、公安之类的项目。
 
+### 中兴力维
 
 ### 慧数
 
@@ -178,3 +187,4 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 1. 生态。阿里，华为 抱团取暖
 1. 要想被赶出去就问和别人到底有什么不同，核心竞争力在哪里？
 1. 在“自主可控”大旗下，外企的机会不大。参会可能政府人员居多，有点画风不符。
+1. 应用同质化严重，甚至连BI的界面都雷同，傻傻分不清楚。然而大家都有自己的地盘，地方和行业保护主义倾向很严重，比如浪潮拿下老家山东，科大讯飞拿合肥开刀。
