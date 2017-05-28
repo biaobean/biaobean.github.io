@@ -2,7 +2,7 @@
 layout: post
 title: "标逛2017年贵阳数博会"
 subtitle: "NoSQL Data Modeling Techniques"
-date: 2013-10-05 12:00:00
+date: 2017-05-26 12:00:00
 author: "biaobean"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
