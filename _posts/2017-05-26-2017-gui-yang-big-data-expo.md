@@ -375,6 +375,9 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1244.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1245.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1246.JPG)
+
+这个安全管理系统，就介绍来看我非常感兴趣。还“嵌入了Hadoop底层，无法绕过”，还号称兼容开源或华为等多家版本。然而，就是在集群边缘部署代理服务器，这让人有点无Fuck说。为了避免万一挨打，其他的系统我也就没问了。
+
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1247.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1248.JPG)
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1249.JPG)
