@@ -13,9 +13,18 @@ tags:
 
 # 标逛2017年贵阳数博会
 
+## 总结
+
+
+1. 百度
+1. 生态。阿里，华为 抱团取暖
+1. 要想被赶出去就问和别人到底有什么不同，核心竞争力在哪里？
+1. 在“自主可控”大旗下，外企的机会不大。参会可能政府人员居多，有点画风不符。
+1. 应用同质化严重，甚至连BI的界面都雷同，傻傻分不清楚。然而大家都有自己的地盘，地方和行业保护主义倾向很严重，比如浪潮拿下老家山东，科大讯飞拿合肥开刀。
 
 ## 展商
 ### 阿里
+
 财大气粗的阿里占据了一号馆的入口，吸引了不少人。此次阿里标榜的主要是：
 1. 阿里云ET人工智能。此次展厅简单把官网上的一些宣传资料挂墙上了而已，写了在智能交通、智能医疗、智能客服上的一些成果。按宣传资料所说“ET的又是在于对全局的洞察和实时决策上”，估计就是基于海量数据的模型训练和实时查询。从阿里云帮助文档[链接](https://help.aliyun.com/document_detail/42745.html)中看到其支持的10余种机器学习算法在开源大数据平台也都有，而语音、图像识别等已经有很多不错的公司，其他的应用或解决方案并未看到。感觉这还是一个新的产品，期待以后有更多的落地。
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_0999.JPG)
@@ -66,13 +75,22 @@ tags:
 
 活雷锋Dell还是很走心的，还有Disco表演等吸睛。Dell展示了和合作伙伴在各个领域的一些解决方案。
 
-不得不提一下这个汤姆生公司，为化工等企业部署IIoT方案，前端传输设备是Dell的。以前只能私有部署，现在后端可以放公有云，专家远程诊断。用户并不用为设备或安装付任何费用，而汤姆生公司定期会给企业出报告，并按照报告向企业收费，
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1016.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1017.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1018.JPG)
+
+不得不提一下这个艾默生公司，为化工等企业部署IIoT方案，前端传输设备是Dell的。以前只能私有部署，现在后端可以放公有云Azure，专家远程诊断。用户并不用为设备或安装付任何费用，而艾默生公司会给企业出报告，并按照报告向企业收费，有点类似Management-as-a-Service，感觉这个模式可能是个非常牛掰的未来。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1019.JPG)
 
 总结：我们不产大数据，我们只是大数据的搬运工。
 
 ### Oracle
 
 任性的Oracle放了一个大屏播NBA在“你懂的”球馆里的比赛。唯一有“大数据”几个字的就只有这个：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1020.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1021.JPG)
 
 总结：感觉就是有钱，过来捧个场。
 
@@ -82,67 +100,167 @@ tags:
 
 #### 企业大数据
 
-浪潮企业云分为私有云和公有云。公有云主要是业务SaaS类租赁服务，主要是财务云。从这幅空洞又缺乏逻辑的图，感觉浪潮做企业市场太不走心了。
+浪潮企业云分为私有云和公有云。从这幅空洞又缺乏逻辑的图，感觉浪潮做企业市场太不走心了。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1126.JPG)
+
+公有云主要是业务SaaS类租赁服务，主要是财务云。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1132.JPG)
 
 浪潮的产品从下到上全有，包括ETL产品、爬虫、数据展示产品、BI产品、元数据管理等等。和浪潮一个开发经理聊，为什么要自己造轮子，答曰，反正没什么技术难度，找几十个人做了就行了，自己能赚的钱自己赚。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1133.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1134.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1135.JPG)
+
+还有浪潮也做大数据投资：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1127.JPG)
 
 #### 警务
 
 首先出场的是警务云，虽然材料很空洞，但别人好心写了双语，正好学习一下，以后咱写PPT也好提高B格。
 
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1117.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1120.JPG)
+
 公安里有一个应用叫警务百度，类似于全文检索。而浪潮的名字很霸气，叫“警务千度”。
 
-里面有一个案例是说通过发现某小区里有用电量很高的情况，发现原来是恐怖组织。案例真实性无法考证，但这么简单粗暴的场景不知道你信不信，反正我是不信，不过觉得用来抓群租应该是可以的。
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1121.JPG)
+
+里面有一个案例是说通过发现某小区里有用电量很高的情况，发现原来是恐怖组织。案例真实性无法考证，但这么简单粗暴的场景不知道你信不信，反正我是不信（或者说觉得参考性不够），不过觉得用来抓群租应该是可以的。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1123.JPG)
 
 这幅图是让我尴尬的地方，“碰撞”是特有黑话啊，不是“冲突”啊，目的不是找出有矛盾的错误数据，而是有共性的数据呀呀呀
 
-还有浪潮也做大数据投资
-
-这里是
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1125.JPG)
 
 #### 精准扶贫云
 
-浪潮在贵州做的项目，现在在全国推广了。以前扶贫数据过时，且不准确，浪潮配合政府逐户采集数据，并与政府部门其他数据
+浪潮在贵州做的项目，现在在全国推广了。工作人员介绍，以前扶贫数据过时，且不准确，浪潮配合政府逐户采集数据，并与政府部门其他数据打通，取得了不错的效果（呃，多不错？），受到中央肯定，正在全国推广。
 
 “精准分析：与政府部门其他数据对接，如住房数据。以前政府之间的数据不能共享，因此可能有人买了房还在领救助款。”
 
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1128.JPG)
+
 “精确调度：根据贫困类型，进行针对性扶贫，如技能不足类的安排培训，伤残类的安排就医等。”
 
-对于政府扶贫的业务不懂，不知道痛点，但从得到的信息来讲，这更多的是一个传统的IT项目，工作核心是信息化。就技术而言，这623万人的扶贫信息，还不是高频数据，就算一个人1MB，也撑不满一台服务器，哪里来的云和大数据？
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1129.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1130.JPG)
+
+对于政府扶贫的业务不懂，不知道痛点，但从得到的信息来讲，这更多的是一个传统的IT项目，工作核心是信息化。就技术而言，这623万人的扶贫信息，而且不是高频数据，就算一个人1MB，也撑不满一台服务器，哪里来的云和大数据？
 
 #### 政府数据治理
 
 虽然标题是“浪潮大数据”，从材料上讲可能是基于贵州省的一个数据项目提炼出来的方法论。
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1137.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1138.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1139.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1141.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1142.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1143.JPG)
 
 #### 民政大数据
 
 感觉里面和传统应用系统没什么不同，不知道所谓的“统一”、“资源大集中”、“智能决策”都是什么老虎。和大数据相关的还是这页，即通过外部车辆、存款、房产等信息与低保人群信息进行比对核查。
 
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1144.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1145.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1146.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1147.JPG)
+
 #### 教育大数据
 
+同样，解决的痛点也是以前各地方自己建平台，数据不流通，同时和政府其他部门的外部数据没有对接。使用“大数据”的思想建统一平台。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1148.JPG)
+
 总结：政府地头蛇，土著集成商。传统政府各级、各部门的IT系统相互独立建设，现在似乎导向是统一。展台内容突出应用，所有的PPT别说技术了，连个软件截图都没有，估计目标受众是政府高层领导。对不起，乱入了。
+
+### 货车帮
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1149.JPG)
 
 ### 中兴
 
 此次中兴大数据的主力是旗下的一家叫[中兴飞流](http://www.jetflow.com.cn/)子公司，据工作人员说公司2015年成立（工商资料中公司实际成立是2016年2月），现在员工60人左右。其主打的应用是交通，叫“速观智能视频分析一体化平台”，在服务器端识别视频和图片，结构化后提供快速的查找。据称识别算法还是自己的。
 
-还有一体机方案。
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1151.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1152.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1153.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1154.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1155.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1156.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1157.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1158.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1159.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1160.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1161.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1162.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1163.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1164.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1165.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1166.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1167.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1168.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1169.JPG)
 
-核心竞争力是自研的“全球首个基于数据流技术的大数据计算引擎”Yita，据说流性能要优于Storm，批处理性能优于Spark，兼容Hadoop生态系统。展区里工作人员是销售线的，所以没问具体，从架构图上是和Spark/Storm平行的，能跑在YARN上。可别是打磨[Apache Beam](http://beam.apache.org/)的山寨货啊。
+核心优势：
 
-对了，知道中兴出品的Hadoop叫什么么？ZDH？错了，叫JDH，哇哈哈。
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1170.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1171.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1172.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1173.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1174.JPG)
 
-然而，后面还有一家中兴的儿子，叫中兴力维得，也做同样的事情，而且居然两家相互都不知道对方的存在。中兴真有趣。
+还有一体机方案（不过PPT里连个实体图都没看到）：
 
-心疼中兴的小哥，还在现场改PPT@@。
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1175.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1176.JPG)
+
+系统方案本身没新意，但那个Yita的DD很神秘：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1177.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1178.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1179.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1180.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1181.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1182.JPG)
+
+核心竞争力是自研的“全球首个基于数据流技术的大数据计算引擎”Yita，据说流性能要优于Storm，批处理性能优于Spark，兼容Hadoop生态系统。展区里工作人员是销售线的，所以没问具体，从架构图上是和Spark/Storm平行的，能跑在YARN上。它到底是啥？一个大数据圈儿里默默无闻的小公司竟能号称江湖第一！是流窜的骗子，还是来自未来的教授？可别是打磨[Apache Beam](http://beam.apache.org/)的山寨货啊。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1183.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1184.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1185.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1186.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1187.JPG)
+
+对了，知道中兴出品的Hadoop叫什么？ZDH？错了，叫JDH，哇哈哈。
+
+然而，后面还有一家中兴的儿子，叫中兴力维，也做同样的事情，而且居然两家相互都不知道对方的存在。中兴真有趣。
+
+心疼中兴的小哥，还在现场改PPT@@。看了看内容，全国通用流行多年。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1150.JPG)
 
 总结：
+
+### 优易
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1188.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1189.JPG)
 
 ### HPE/DXC
 
 还不知道DXC的同学看这堵墙，前生就是HP企业服务部。
 
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1190.JPG)
+
 也有交通领域的服务方案。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1192.JPG)
 
 总结：这次带来的货不多，感觉是陪太子读书来的。
 
@@ -150,19 +268,37 @@ tags:
 
 SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面基本上没什么人。推数字化零售方案，宣传资料里连Hadoop都“懒得”挂了。直接路过...
 
-总结：看图吧...
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1194.JPG)
 
 ### 华为
 
 华为摆了一个赛车游戏机，和真实赛车大小一样的模型，还有前面一个大大的屏幕，吸引了很多人排队。真正的展区就是一个个的屏幕，分行业和应用播放和不同生态伙伴的解决方案。除了自己的FI大数据平台，站台的多为合作伙伴。
 
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1195.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1196.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1197.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1198.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1200.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1201.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1202.JPG)
+
+金融合作伙伴，这次翻的是中软的牌子，主推反欺诈和风控，不知道后宫还有谁。
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1203.JPG)
+
 ### 搜狗
 
 搜狗也把自己内部使用的数据分析平台对外做价值输出了，场景主要是基于标签的市场分析，类似百度凤巢。据工作人员说，除了搜狗输入法自己的数据,还得到腾讯许可能拿到微信的所有数据，这就厉害了哦。
 
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1204.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1205.JPG)
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1206.JPG)
+
 ### 哈工大
 
 本以为会以机器人为主题，结果展示了一堆行业应用，气质和浪潮类似。恩，咱东北也有Hadoop：
+
+![img](/img/content/2017-gui-yang-big-data-expo/IMG_1207.JPG)
 
 ### 科大讯飞
 
@@ -174,17 +310,9 @@ SAP也是在一号馆，装修得像商场一样，摆了几件西服，里面�
 
 ![img](/img/content/2017-gui-yang-big-data-expo/zhongkedianji.png)
 
-## 花边
+## 吐槽
 1. 大娘们组团逛数博会。在数博会门口就像旅游景点一样，有很多摇着小旗子的“导游”，领一队队戴着整齐帽子的大爷大妈团，浩浩荡荡地进军数博会会场。大妈都大数据了？顿时压力大:)
 1. 在线直播火爆。现场有很多妹子像逛街一样直播数博会，嗯是妹子，全是妹子，连“工作人员”都是妹子。我似乎有点穿越ChinaJoy？大数据能吸引妹子来，这绝逼是IT民工转型的强大动力啊！
 ![img](/img/content/2017-gui-yang-big-data-expo/live1.png)
 ![img](/img/content/2017-gui-yang-big-data-expo/live2.png)
-
-## 总结
-
 1. 各种“第一”满天飞。不是新广告法都出来了吗，有人管不？
-1. 百度
-1. 生态。阿里，华为 抱团取暖
-1. 要想被赶出去就问和别人到底有什么不同，核心竞争力在哪里？
-1. 在“自主可控”大旗下，外企的机会不大。参会可能政府人员居多，有点画风不符。
-1. 应用同质化严重，甚至连BI的界面都雷同，傻傻分不清楚。然而大家都有自己的地盘，地方和行业保护主义倾向很严重，比如浪潮拿下老家山东，科大讯飞拿合肥开刀。
