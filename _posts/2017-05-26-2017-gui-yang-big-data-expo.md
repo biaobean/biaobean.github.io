@@ -90,6 +90,7 @@ tags:
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1019.JPG)
 
+Dell家自己的详细报道链接见[此](http://mp.weixin.qq.com/s/8lJ9-Fa1L0vqvWxX3ecqKQ)。
 在Dell发的资料里特地有一个北京大学出的《戴尔与中国经济增长》，意思是戴尔是经济界的白求恩，书已经是10年前的了，谄媚官老爷之切已然顾不上姿势优雅了。
 
 ![img](/img/content/2017-gui-yang-big-data-expo/IMG_1272.JPG)
