@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "2017 Strata Datad大会Beijing站参会记"
-subtitle:   " \"2017 Strata Data Beijing\""
+title:      "2017 Strata Datad大会Beijing站参会记（第一篇）：周五Keynotes"
+subtitle:   "2017 Strata Data Beijing(1): Keynotes 1"
 date:       2017-07-16 00:00:00
 author:     "biaobean"
 header-img: "img/post-bg-2015.jpg"
@@ -10,18 +10,13 @@ tags:
     - Strata
 ---
 
-Orelly的Strata全球大会引入中国已经第二年，这是门票要大好几千的高B格的技术会议，也是广大海外IT民工蹭会归国的探亲会:)。去蹭吃蹭喝，那是必须的。
+Orelly的Strata全球大会引入中国已经第二年，这是门票要大好几千的高B格的技术会议，也是广大海外IT民工蹭会归国的探亲会:)。有幸能去蹭吃蹭喝，那是必须去现眼的。
 
-这次Strata的官方规格还是很高的，Cloudera公司来的是Hadoop吉祥物道哥和CTO Amr，这对儿胖头陀和瘦头陀在一个技术大会上同时出现，这些年在全球都是屈指可数的；
+这次Strata的官方规格还是很高的，Cloudera公司来的是Hadoop吉祥物道哥和CTO Amr，这对儿胖头陀和瘦头陀在一个技术大会上同时出现，这些年在全球都屈指可数。
 
-# 总结
+Strata Hadoopy已经改名成了Strata Data，不过这一届其实被“掰弯”成了Strata AI，全场Hadoop的Session仅在个位数。“大数据”本身已经不再是技术界，甚至不再是业界的宠儿，现在花魁的名字叫“人工智能”。
 
-Strata Hadoopy已经改名成了Strata Data，而这一届又被“掰弯”成了Strata AI，全场Hadoop的Session仅在个位数。“大数据”本身已经不再是技术界，甚至不再是业界的宠儿，现在花魁的名字叫“人工智能”。
-
-百度、京东等互联网的AI技术已经在开始走出实验室，并且碾压传统技术。而传统IT行业或厂商还在干着OLAP，OLTP的活儿。
-
-明天或者以后。来自发现技术圈已经高处不胜寒，只有圈里自己在high，即使偶尔有一些成果的传统企业大头也藏着掖着。顶尖的技术大会只是名字不同的BATJ等互联网码农Meetup而已。
-
+总体看，百度、京东等互联网的AI技术已经在开始走出实验室，并且碾压传统技术。而传统IT行业或厂商更多还在干着OLAP，OLTP的活儿。就分享的Session看，也多来自互联网圈，有钱有数据节奏快，让现在的现在BATJ等互联网码农几乎垄断国内的大数据技术。传统IT数据工程师和与之的代购，别说分享了，现在估计连听都不怎么听的懂了。各种技术大会几乎只是圈里人的自high的Meetup而已。
 
 # Keynotes
 
@@ -62,10 +57,11 @@ Linkedin在做了联系人推荐(People You May Know)这个大数据应用以后
 * 现在我应该学习哪种编程语言？
 * 兼职MBA对我有用吗？
 
-新的需求带来了新的异构的计算平台，他们对于资源的利用习性差别非常大。比如：
+新的需求对于资源的利用习性差别非常大，带来了新的计算平台的挑战：规模和异构化。比如：
 
-* 用于深度学习的框架TensorFlow，其任务运行时间甚至长达数天，因此计算资源需求稳定，通常混合使用CPU+GPU，需要定期存档中间计算结果
-* 服务交互式SQL查询的Presto，任务执行需要秒级甚至毫秒级响应时间，计算资源需求起伏非常大，
+* 深度学习框架TensorFlow：任务运行时间甚至长达数天，因此计算资源需求稳定；通常混合使用CPU+GPU；需要定期存档中间计算结果
+* 服务交互式SQL查询Presto：任务执行需要秒级甚至毫秒级响应时间；计算资源需求起伏非常大；容错性要求低
+* 流处理引擎Samza：连续数据输入；计算资源需求稳定；长时间运行
 
 张喆认为Hadoop 3.0以后YARN对于长任务（一直运行的服务，而不像MR那种资源“用完即走”的计算任务）的支持会更好，因此可能会很有帮助，他们也正在做测试。比如最新的TF支持动态包括：
 
@@ -81,10 +77,29 @@ Linkedin在做了联系人推荐(People You May Know)这个大数据应用以后
 
 这里说的是HDFS的规模化问题。为什么在机器性能越来越好的现在，NN单机仍然有性能问题呢？
 
-1. NN表空间和文件的全局读写锁。虽然可以分配给NN很多CPU核，但只能有1-2个Thread进行同时读。Linkedin实现了unfari的读写锁。（不过据说可能会有写饿死的情况，如何重现和保证不产生饿死的情况尚未知，如果生产系统使用可能需要应用层有相关的控制。）
+1. NN表空间和文件的全局读写锁。虽然可以分配给NN很多CPU核，但只能有1-2个Thread进行同时读。Linkedin实现了unfairi的读写锁。（不过据说可能会有写饿死的情况，如何重现和保证不产生饿死的情况尚未知，如果生产系统使用可能需要应用层有相关的控制。）
+	1. 目标：10万QPS
+	2. 目前：3-4万
+	3. 已完成：精确测量每个操作用锁时间
+	4. 正在做：茄花岛unfairi读写锁
+	5. 计划：集合同类操作，分周期用锁
 2. JVM的GC。大规模的文件操作，比如 ls -r /，会产生大量的Java对象和垃圾收集。Linkedin的最佳实践是尽量将不需要的文件移到其他集群（呃，这废话好有道理！）。比如Linkedin发现其集群里面很多的是YARN的日志，平均大小很小（100-200K），将其迁移到其他集群进行远程访问并不会带来太大的访问性能损耗，却将NN响应时间缩小了一半。（为什么不直接删？我想是因为Linkedin每天都运行至少15万以上的任务，即使一段时间后就删除，NN压力也不小吧。）
+	1. 目标：5亿文件
+	2. 目前：~3亿
+	3. 已完成：完善文件夹list的throttle
+	4. 正在做：测试G1GC
+	5. 计划：可重用的文件和block对象池
 
-这里Linkedin实现了基于router的可以不同的集群不同的文件系统viewFS的改进，以前是静态的，只能在客户端，现在放在服务器端，管理员可以自己改动。
+另外为了应对大规模测试的挑战，Linkedin开发了大规模HDFS集群的虚拟器Dynamometer：
+
+* 装载生成环境的fsimage
+* 1键部署需要测试的Hadoop版本
+* 重放生产环境的audit logs
+* 只需要生产环境集群的1/10硬件
+
+Linkedin还实现了**基于Router的多集群方案**，可以访问不同的集群的**异构**文件系统（不一定是HDFS哦），可以看做viewFS的改进，以前是静态的，只能在客户端，现在放在服务器端，管理员可以自己改动。具体可以看
+[HDFS-10467](https://issues.apache.org/jira/browse/HDFS-10467)。
+
 
 **问题三：新的大数据工作者，工程生产力需求**
 
@@ -150,7 +165,7 @@ Ben总结了DL的三个特点：
 介绍了对话机器人（Conversational AI），分两类：
 
 * 聊天(Open-domain)：闲聊，尽量聊天时间长，要求像个博学者（Generalist）。这个就类似于图灵测试（Tuning测试其实就定义了什么是人工智能），现在的解决方案是基于搜索，需要海量的文本数据。
-* 客服(Task-oriented)：时间尽可能短，要求像个专家（Specialist），如订票机器人。在这里可能做出比较好的用户模拟器(user simulator)。聊天机器人(Chatbot）通过Data进行Imitation Learning和Reinforcement Learning强化学习能学习型的场景，然后通过Learning methods进化到能解决以前没有遇到的问题(Generalizable to new unknown cases)，即zero shot。
+* 客服(Task-oriented)：时间尽可能短，要求像个专家（Specialist），如订票机器人。在这里可能做出比较好的用户模拟器(user simulator)。聊天机器人(Chatbot）通过Data进行Imitation Learning和Reinforcement Learning强化学习能学习型的场景，然后通过Learning methods进化到能解决以前没有遇到的问题(Generalizable to new unknown cases)，即zero shot。(别怪我说的这么绕，图揍是酱紫画的。没看懂不要紧，其实就是Imitation Learning和Reinforcement Learning）
 
 **内容**
 
@@ -161,16 +176,32 @@ Ben总结了DL的三个特点：
 
 ## 京东: 电子商务的未来：AI和大数据
 
-京东的核心竞争力：物流(Logistics)、无人商店(Smart Shop)和物联网(Smart IoT)。
+没介绍什么实质的东西，聊聊几页PPT，唯一的信息量是：
 
-京东AI的应用场景：智慧医疗(Medtech)、智慧城市(Smart City)、智能投顾(Fintech)和办公自动化(Auto-office)
+京东的核心竞争力：物流(Logistics)、无人商店(Smart Shop)和物联网(Smart IoT)。（我没听错？是Smart shop还是无人商店？无人商店新闻才出来多久，京东做了啥就成了“核心竞争力”了？）
+
+京东AI的应用场景：智慧医疗(Medtech)、智慧城市(Smart City)、智能投顾(Fintech)和办公自动化(Auto-office)。（简而言之，京东的AI要出墙了。）
 
 [PPT](https://cdn.oreillystatic.com/en/assets/1/event/273/%E7%94%B5%E5%AD%90%E5%95%86%E5%8A%A1%E7%9A%84%E6%9C%AA%E6%9D%A5%EF%BC%9AAI%E5%92%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%EF%BC%88An%20ecommerce%20future_%20AI%20and%20big%20data%EF%BC%89%20%E8%AE%B2%E8%AF%9D.pdf)
 
-# 参展厂商
+## 滴滴：大数据在滴滴出行的应用
 
-一个说能OLAP一个说能做OLTP
-## 天云
+DiDi现在每天70TB新增数据，处理4.5PB数据，超过200亿次路径规划请求，140亿次定位。核心的项目包括：
+
+* 路径规划(Route Planning)：这是派单的核心，主要目的是：
+	* 最小化成本
+	* 最大化司机效率
+	* 最优化交通效率
+* Estimated Time of Arrival(ETA)：估计路上时间和等待时间之和。以上两个地图服务是DiDi最核心也是用的最多的机器学习，架构如：
+* Intelligent Order-Dispatching
+* Tranportation Capacity Management
+* Supply & Demand Forcasting
+* Ride-pooling
+* Jiu Xiao Visualization
+* Safety Assessment
+* Arbitration & Dispute Resolution
+
+其中Tranportation Capacity Management,Guess Your Destination和Sugggest Pickup Spots等还发表在了KDD 2017。
 
 #资源
 
