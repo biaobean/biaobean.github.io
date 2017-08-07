@@ -222,6 +222,6 @@ DiDi现在每天70TB新增数据，处理4.5PB数据，超过200亿次路径规�
 
 其中Supply & Demand Forcasting/Tranportation Capacity Management,Guess Your Destination和Sugggest Pickup Spots等还发表在了KDD 2017。
 
-#资源
+# 资源
 
 https://strata.oreilly.com.cn/strata-cn/public/schedule/proceedings
