@@ -4,7 +4,7 @@ title:      "2017 Strata Datad大会Beijing站参会记（第一篇）：周五K
 subtitle:   "2017 Strata Data Beijing(1): Keynotes 1"
 date:       2017-07-16 00:00:00
 author:     "biaobean"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/content/2017-strata-data-beijing/doug.jpg"
 catalog: true
 tags:
     - Strata
@@ -13,6 +13,8 @@ tags:
 Orelly的Strata全球大会引入中国已经第二年，这是门票要大好几千的高B格的技术会议，也是广大海外IT民工蹭会归国的探亲会:)。有幸能去蹭吃蹭喝，那是必须去现眼的。
 
 这次Strata的官方规格还是很高的，Cloudera公司来的是Hadoop吉祥物道哥和CTO Amr，这对儿胖头陀和瘦头陀在一个技术大会上同时出现，这些年在全球都屈指可数。
+
+![img](/img/content/2017-strata-data-beijing/doug.jpg)
 
 Strata Hadoopy已经改名成了Strata Data，不过这一届其实被“掰弯”成了Strata AI，全场Hadoop的Session仅在个位数。“大数据”本身已经不再是技术界，甚至不再是业界的宠儿，现在花魁的名字叫“人工智能”。
 
@@ -28,6 +30,7 @@ Strata Hadoopy已经改名成了Strata Data，不过这一届其实被“掰弯�
 
 1. “通过硬件升级和软件优化推动技术民主化”，通俗的讲就是让屌丝也用得起大数据和人工智能。确实，正如罗胖所说，商业的目的不是让英国女王拥有更多的丝袜（不是让高大上的HPC变得更快），而是制造老百姓也穿得起丝袜。不过，这里Intel解决的只是计算速度问题，现在云计算已经解决了计算的资源门槛，但技术能力门槛却才是让很多传统企业望尘莫及的。
 	1. Intel新一代至强芯片性能提升了数倍。现在无论是大数据还是深度学习等对于计算的要求不是数倍的增长，而是好几个数量级，显然单纯通过CPU的提速完全不满足大数据界应用的需求了。Intel尽力想把任务留在CPU，而N家往CPU以外拉，现在从股票和技术的发展看，明显N家更火。哎，Intel当年没把N家买下来，估计心情就和俺们买房子一样：当初怎么就嫌它贵没买呢？现在可好，涨成这样买不起了....话说发现Intel居然还有自己的Python发行版？！这不长记性的。。。。。。
+	![img](/img/content/2017-strata-data-beijing/intel_ai.png)
 	1. HBase：非堆存储的读操作提升了5倍。（在这么高逼格的Keynotes上讲这个就有点low了吧，这玩意儿的应用场景和对整体提升有限，HBase的平均处理速度已经足够满足应用需要了，它的痛点不在于快慢，而在于间歇性的抽风。）
 	1. Spark：基于Intel实现的数学库能将Spark分析的性能提高4.3倍。（用Native甚至汇编来优化现有实现，利用Intel CPU的特性提升速度，尤其是数学向量计算，是樱桃软件事业部的看家本领，以前的C语言库、XML处理库、Android优化啦....）
 1. “为新兴的需求、新技术提供新的解决方案”，这里其实就是推Intel出的BigDL啦，通过它构建Spark+ML端到端深度学习流水线，其优点包括：
@@ -35,6 +38,7 @@ Strata Hadoopy已经改名成了Strata Data，不过这一届其实被“掰弯�
 	1. 现有机器学习框架不是为了Spark和扩展性所设计，BigDL在利用分布式框架获得性能提升方面更有优势；
 	1. 硬件利旧。现在的ML通常需要高配置专有的机器，而传统的大数据服务器配置比较低；
 	1. 高性能，缩短训练周期。
+	![img](/img/content/2017-strata-data-beijing/intel_bigdl.png)
 1. “推动创新，为客户解决更新更复杂的问题”。这个说的是行业里的案例，牛吹的比较虚，还不如不讲，Intel也不是干这事儿的，略过。
 
 [PPT](https://cdn.oreillystatic.com/en/assets/1/event/273/英特尔技术加速实现分析与人工智能的未来 - 英特尔赞助 _Accelerating the future for analytics and AI with Intel technologies—sponsored by Intel_ 讲话 1.pdf)
@@ -50,7 +54,12 @@ Strata Hadoopy已经改名成了Strata Data，不过这一届其实被“掰弯�
 
 **问题一：新的计算需求：深度学习**
 
-Linkedin在做了联系人推荐(People You May Know)这个大数据应用以后，现在也在做一些AI的尝试，如用户资料自动翻译。甚至在使用深度学习来满足新的计算需求，比如：
+Linkedin在做了联系人推荐(People You May Know)这个大数据应用以后，现在也在做一些AI的尝试，甚至在使用深度学习来满足新的计算需求，如用户资料自动翻译。场景包括：
+
+* 文本标准化：比如简历中Java程序员、前端开发、Spark Committer等不同的说法都表示软件工程师。
+* 潜在关联/相似：比如北京大学毕业的腾讯员工和清华大学毕业的阿里云员工。
+
+再比如回答：
 
 * 我大概预期应该几年会升职？
 * 哪些因素影响升职的进度？
@@ -97,9 +106,12 @@ Linkedin在做了联系人推荐(People You May Know)这个大数据应用以后
 * 重放生产环境的audit logs
 * 只需要生产环境集群的1/10硬件
 
+![img](/img/content/2017-strata-data-beijing/dynamometer.jpg)
+
 Linkedin还实现了**基于Router的多集群方案**，可以访问不同的集群的**异构**文件系统（不一定是HDFS哦），可以看做viewFS的改进，以前是静态的，只能在客户端，现在放在服务器端，管理员可以自己改动。具体可以看
 [HDFS-10467](https://issues.apache.org/jira/browse/HDFS-10467)。
 
+![img](/img/content/2017-strata-data-beijing/hdfs10467.png)
 
 **问题三：新的大数据工作者，工程生产力需求**
 
@@ -167,6 +179,8 @@ Ben总结了DL的三个特点：
 * 聊天(Open-domain)：闲聊，尽量聊天时间长，要求像个博学者（Generalist）。这个就类似于图灵测试（Tuning测试其实就定义了什么是人工智能），现在的解决方案是基于搜索，需要海量的文本数据。
 * 客服(Task-oriented)：时间尽可能短，要求像个专家（Specialist），如订票机器人。在这里可能做出比较好的用户模拟器(user simulator)。聊天机器人(Chatbot）通过Data进行Imitation Learning和Reinforcement Learning强化学习能学习型的场景，然后通过Learning methods进化到能解决以前没有遇到的问题(Generalizable to new unknown cases)，即zero shot。(别怪我说的这么绕，图揍是酱紫画的。没看懂不要紧，其实就是Imitation Learning和Reinforcement Learning）
 
+![img](/img/content/2017-strata-data-beijing/tencent_ai_1.jpg)
+
 **内容**
 
 这里主要介绍的天天快报的精准推荐。基于新闻特征(News characteristics)、环境特征(Evironmental characteristics)、用户特征(User characteristics)和上下文特征(Context characteristics)为文章打分。
@@ -186,6 +200,8 @@ Ben总结了DL的三个特点：
 
 ## 滴滴：大数据在滴滴出行的应用
 
+![img](/img/content/2017-strata-data-beijing/didi_1.jpg)
+
 DiDi现在每天70TB新增数据，处理4.5PB数据，超过200亿次路径规划请求，140亿次定位。核心的项目包括：
 
 * 路径规划(Route Planning)：这是派单的核心，主要目的是：
@@ -193,15 +209,18 @@ DiDi现在每天70TB新增数据，处理4.5PB数据，超过200亿次路径规�
 	* 最大化司机效率
 	* 最优化交通效率
 * Estimated Time of Arrival(ETA)：估计路上时间和等待时间之和。以上两个地图服务是DiDi最核心也是用的最多的机器学习，架构如：
+![img](/img/content/2017-strata-data-beijing/didi_2.jpg)
 * Intelligent Order-Dispatching
+![img](/img/content/2017-strata-data-beijing/didi_3.jpg)
 * Tranportation Capacity Management
 * Supply & Demand Forcasting
+![img](/img/content/2017-strata-data-beijing/didi_4.jpg)
 * Ride-pooling
 * Jiu Xiao Visualization
 * Safety Assessment
 * Arbitration & Dispute Resolution
 
-其中Tranportation Capacity Management,Guess Your Destination和Sugggest Pickup Spots等还发表在了KDD 2017。
+其中Supply & Demand Forcasting/Tranportation Capacity Management,Guess Your Destination和Sugggest Pickup Spots等还发表在了KDD 2017。
 
 #资源
 
