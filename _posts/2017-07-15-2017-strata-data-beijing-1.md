@@ -10,15 +10,15 @@ tags:
     - Strata
 ---
 
-Orelly的Strata全球大会引入中国已经第二年，这是门票要大好几千的高B格的技术会议，也是广大海外IT民工蹭会归国的探亲会:)。有幸能去蹭吃蹭喝，那是必须去现眼的。
+Oreilly的Strata全球大会引入中国已经第二年，这是门票要大好几千的高B格的技术会议，也是广大海外IT民工蹭会归国的探亲会:)。有幸能去蹭吃蹭喝，那是必须去现眼的。
 
-这次Strata的官方规格还是很高的，Cloudera公司来的是Hadoop吉祥物道哥和CTO Amr，这对儿胖头陀和瘦头陀在一个技术大会上同时出现，这些年在全球都屈指可数。
+这次Strata的官方规格还是很高的，Cloudera公司来的是Hadoop吉祥物道哥（Doug Cutting）和CTO Amr，这对儿胖头陀和瘦头陀在一个技术大会上同时出现，这些年在全球都屈指可数。
 
 ![img](/img/content/2017-strata-data-beijing/doug.jpg)
 
-Strata Hadoopy已经改名成了Strata Data，不过这一届其实被“掰弯”成了Strata AI，全场Hadoop的Session仅在个位数。“大数据”本身已经不再是技术界，甚至不再是业界的宠儿，现在花魁的名字叫“人工智能”。
+Strata Hadoop刚改名成了Strata Data，这一届又被“掰弯”成了Strata AI，全场Hadoop的Session仅在个位数。“大数据”本身已经不再是技术界，甚至不再是业界的宠儿，现在花魁的名字叫“人工智能”。
 
-总体看，百度、京东等互联网的AI技术已经在开始走出实验室，并且碾压传统技术。而传统IT行业或厂商更多还在干着OLAP，OLTP的活儿。就分享的Session看，也多来自互联网圈，有钱有数据节奏快，让现在的现在BATJ等互联网码农几乎垄断国内的大数据技术。传统IT数据工程师和与之的代购，别说分享了，现在估计连听都不怎么听的懂了。各种技术大会几乎只是圈里人的自high的Meetup而已。
+百度、京东等互联网的AI技术已经在开始走出实验室，而传统IT行业或厂商更多还在干着OLAP，OLTP的活儿。就分享的Session看，也多来自互联网圈，有钱有数据节奏快，现在的现在BATJ等互联网码农几乎垄断国内的大数据技术。传统IT数据工程师和与之的代沟，别说来分享了，现在估计连听都不怎么听的懂了。各种技术大会几乎只是互联网人自high的Meetup而已。
 
 # Keynotes
 
@@ -124,14 +124,13 @@ Linkedin还实现了**基于Router的多集群方案**，可以访问不同的�
 
 [PPT](https://cdn.oreillystatic.com/en/assets/1/event/273/%E6%88%90%E9%95%BF%E7%9A%84%E7%83%A6%E6%81%BC--%E9%A2%86%E8%8B%B1%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%B9%B3%E5%8F%B0500%E5%80%8D%E6%89%A9%E5%B1%95%E4%B8%AD%E5%BA%94%E5%AF%B9%E7%9A%84%E6%8C%91%E6%88%98%20_Growing%20pains_%20When%20your%20big%20data%20platform%20grows%20really%20big_%20%E8%AE%B2%E8%AF%9D.pdf)
 
-# Orielly
+# Oreilly
 
 先是两个Jeff的名人名言，旨在说ML/DL的普适性。
 
-"Machine learning and AI is a horizontal enabling layer. ... basically there’s no 
-institution in the world that cannot be improved with machine learning." Jeff Bezos, CEO of Amazon
+"Machine learning and AI is a horizontal enabling layer. ... basically there’s no institution in the world that cannot be improved with machine learning." -- Jeff Bezos, CEO of Amazon
 
-"Deep Learning is essential for every computer scientist to know." Jeff Dean, Google
+"Deep Learning is essential for every computer scientist to know." -- Jeff Dean, Google
 
 Ben主要介绍了一下深度学习在影像声音领域以外的一些成果，都还在研究阶段。比如：
 
