@@ -16,7 +16,7 @@ Oreilly的Strata全球大会引入中国已经第二年，这是门票要大好�
 
 ![img](/img/content/2017-strata-data-beijing/doug.jpg)
 
-Strata Hadoop刚改名成了Strata Data，这一届又被“掰弯”成了Strata AI，全场Hadoop的Session仅在个位数。“大数据”本身已经不再是技术界，甚至不再是业界的宠儿，现在花魁的名字叫“人工智能”。
+Strata Hadoop刚改名成了Strata Data，这一届又被“掰弯”成了Strata AI，全场Hadoop的Session仅在个位数。“大数据”本身已经不再是技术界，甚至不再是业界的宠儿，现在花魁的名字叫“人工智能”。这几年国内产业界每年都在吹是大数据的“元年”，可怜的娃儿，刚过元年就是“周年”。。。
 
 百度、京东等互联网的AI技术已经在开始走出实验室，而传统IT行业或厂商更多还在干着OLAP，OLTP的活儿。就分享的Session看，也多来自互联网圈，有钱有数据节奏快，现在的现在BATJ等互联网码农几乎垄断国内的大数据技术。传统IT数据工程师和与之的代沟，别说来分享了，现在估计连听都不怎么听的懂了。各种技术大会几乎只是互联网人自high的Meetup而已。
 
