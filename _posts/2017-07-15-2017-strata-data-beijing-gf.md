@@ -2,12 +2,13 @@
 layout:     post
 title:      "2017 Strata Datad大会Beijing站参会记（第三篇）：广发银行：大数据时代银行客户社交关系圈研究与应用"
 subtitle:   "2017 Strata Data Beijing(3): Research on and the application of a social relation circle of bank customers in the big data era"
-date:       2017-09-01 00:00:00
+date:       2017-09-01 01:00:00
 author:     "biaobean"
 header-img: "img/content/2017-strata-data-beijing/doug.JPG"
 catalog: true
 tags:
     - Strata
+    - Big Data
 ---
 
 广发银行：大数据时代银行客户社交关系圈研究与应用
