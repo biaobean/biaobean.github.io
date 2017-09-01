@@ -25,10 +25,16 @@ tags:
 ![img](/img/content/2017-strata-data-beijing/yrd_4.JPG)
 ![img](/img/content/2017-strata-data-beijing/yrd_5.JPG)
 ![img](/img/content/2017-strata-data-beijing/yrd_6.JPG)
+
+使用图数据库Neo4j，实现就是这么简单
+
 ![img](/img/content/2017-strata-data-beijing/yrd_7.JPG)
 ![img](/img/content/2017-strata-data-beijing/yrd_8.JPG)
 ![img](/img/content/2017-strata-data-beijing/yrd_9.JPG)
 ![img](/img/content/2017-strata-data-beijing/yrd_10.JPG)
+
+良心啊，代码都直接帖出来了：
+
 ![img](/img/content/2017-strata-data-beijing/yrd_11.JPG)
 ![img](/img/content/2017-strata-data-beijing/yrd_12.JPG)
 ![img](/img/content/2017-strata-data-beijing/yrd_13.JPG)
